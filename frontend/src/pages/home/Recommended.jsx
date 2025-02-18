@@ -50,7 +50,7 @@ const Recommended = () => {
         {
             books.length && books.slice(8, 18).map((book, index) => (
                 <SwiperSlide key={index}>
-                 <BookCard book={book} />
+                  <BookCard book={book} />
                 </SwiperSlide>
             ))
         }
